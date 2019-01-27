@@ -1,0 +1,148 @@
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2019-01-27T22:48:01.018603300+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="6544" ThreadID="10556" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="BufferSize">    8192</Data>
+		<Data Name="Version">83951626</Data>
+		<Data Name="ProviderVersion">   17134</Data>
+		<Data Name="NumberOfProcessors">       4</Data>
+		<Data Name="EndTime">131930957008305771</Data>
+		<Data Name="TimerResolution">  156250</Data>
+		<Data Name="MaxFileSize">       0</Data>
+		<Data Name="LogFileMode">0x0</Data>
+		<Data Name="BuffersWritten">       4</Data>
+		<Data Name="StartBuffers">       1</Data>
+		<Data Name="PointerSize">       8</Data>
+		<Data Name="EventsLost">       0</Data>
+		<Data Name="CPUSpeed">    2000</Data>
+		<Data Name="LoggerName">0x9</Data>
+		<Data Name="LogFileName">0x6</Data>
+		<Data Name="BootTime">131926566875000000</Data>
+		<Data Name="PerfFreq">1953126</Data>
+		<Data Name="StartTime">131930956810186033</Data>
+		<Data Name="ReservedFlags">0x1</Data>
+		<Data Name="BuffersLost">       0</Data>
+		<Data Name="SessionNameString">mysession</Data>
+		<Data Name="LogFileNameString">C:\Users\Roka\source\repos\&#1057;SharpLearningLogging\SimpleEventSourceSample\mytrace.etl</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>Header</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>80</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2019-01-27T22:48:01.018603300+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="6544" ThreadID="10556" ProcessorID="0" KernelTime="15" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="EventVersion">0</Data>
+		<Data Name="Reserved">0</Data>
+		<Data Name="PartitionType">       0</Data>
+		<Data Name="QpcOffsetFromRoot">0</Data>
+		<Data Name="PartitionId">{00000000-0000-0000-0000-000000000000}</Data>
+		<Data Name="ParentId">{00000000-0000-0000-0000-000000000000}</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>PartitionInfoExtension</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Roka-Event-Source" Guid="{1bd45359-efb9-5ee2-c470-cd5c3abae05d}" />
+		<EventID>2</EventID>
+		<Version>0</Version>
+		<Level>5</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2019-01-27T22:48:07.280013400+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="11392" ThreadID="6104" ProcessorID="2" KernelTime="0" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="Info">Roka app started</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Task>Startup</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Roka-Event-Source" Guid="{1bd45359-efb9-5ee2-c470-cd5c3abae05d}" />
+		<EventID>3</EventID>
+		<Version>0</Version>
+		<Level>5</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2019-01-27T22:48:07.290733200+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="11392" ThreadID="6104" ProcessorID="0" KernelTime="0" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="Info">calling http://www.cninnovation.com</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Task>Network</Task>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Roka-Event-Source" Guid="{1bd45359-efb9-5ee2-c470-cd5c3abae05d}" />
+		<EventID>3</EventID>
+		<Version>0</Version>
+		<Level>5</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2019-01-27T22:48:07.634522600+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="11392" ThreadID="4816" ProcessorID="1" KernelTime="0" UserTime="105" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="Info">completed call to http://www.cninnovation.com, result string length: 39025</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Task>Network</Task>
+	</RenderingInfo>
+</Event>
+</Events>
